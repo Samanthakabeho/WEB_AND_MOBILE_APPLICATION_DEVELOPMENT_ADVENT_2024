@@ -1,0 +1,40 @@
+body{
+    background-color: pink
+}
+
+/*
+CSS is a language used to design an HTML document.
+It is also used to describe how HTML elements should be displayed
+CSS manages image placement,sizing and effects
+It also controls font styles,sizes and spacing
+
+*/
+
+h1{
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    box-shadow:2px 2px 5px yellow;
+
+}
+
+h2{
+    font-size:medium;
+    color:antiquewhite;
+    padding: 10px;
+    border: radius 5px;
+    background-color:blueviolet;
+    box-shadow: 2px 2px 5 px grey;
+}
+
+p{
+    font-size:medium;
+    color:black;
+    padding: 10px;
+    border: radius 5px;
+
+    box-shadow: 2px 2px 5 px grey;
+}
