@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCU HOSTEL AND RENTAL SEARCHING</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>UCU Hostel and Hostel Searching</h1>
+        <p>Find the best hostels and rentals around UCU.</p>
+    </header>
+
+    <main>
+        <section class="search">
+            <h2>Search for Hostels and Rentals</h2>
+            <form id="searchForm">
+                <input type="text" id="location" placeholder="Enter location..." required>
+                <input type="number" id="maxPrice" placeholder="Max Price" required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section class="results" id="results">
+            <h2>Available Listings</h2>
+            <ul id="listingList">
+                <!-- Listings will be populated here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 UCU Hostel Finder. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
